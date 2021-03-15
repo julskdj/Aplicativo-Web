@@ -65,5 +65,6 @@ function loginJSON() {
 function cerrarSesion() {
     document.getElementById("sesion").innerHTML = `<i class="fas fa-user"></i>Username`;
     localStorage.removeItem("Sesion");
+    localStorage.removeItem("logeo");
     location.href = "html/Login.html";
 }
